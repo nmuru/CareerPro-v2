@@ -1,0 +1,111 @@
+Project Title: NetworkPro
+
+Overview
+Build a career and networking app that integrates LinkedIn profile data. The app should allow users to upload their LinkedIn profile as a PDF (instead of OAuth authentication for now) and extract relevant details to provide personalized career and networking recommendations.
+
+Core Features:
+Profile Extraction: Users will upload their LinkedIn profile as a PDF, and the app will extract key details such as name, headline, location, current job title, company, industry, education, skills, and certifications.
+
+Top 5 Recommendations:
+
+- Users to Follow (based on industry, interests, and mutual connections)
+
+- People to Connect With (colleagues, alumni, influencers)
+
+- Jobs to Apply For (based on skills and career goals)
+
+- Courses to Learn (recommended for skill improvement)
+
+- Skills to Develop (aligned with job market trends)
+
+Refreshing & Storing Recommendations: Users can refresh recommendations and store selected suggestions in persistent storage.
+
+Tab-Based Navigation: The app should have four main tabs:
+
+Home – Displays extracted LinkedIn profile data
+
+Career Interests – AI-powered suggestions based on profile data
+
+Networking – Recommended connections, posts, and experts
+
+Jobs – Job openings, recruiters, courses, and skill suggestions
+
+ 
+Detailed Feature Breakdown
+
+1. Home Tab – Welcome Page
+The home page will display key details from the user's LinkedIn profile. Instead of implementing OAuth login, the user will upload their LinkedIn profile as a PDF, which will be parsed to populate the details.
+
+Displayed Profile Information:
+Profile Picture, Name, Headline, Location
+
+Current Job Title, Company, Industry
+
+Education, Skills, Certifications
+
+"Edit Profile" Button – Allows users to manually update their information
+
+"Proceed" Button – Navigates to the next tab for career interests
+
+2. Career Interests Tab
+This section will analyze the LinkedIn profile data from the Home Tab and provide AI-powered suggestions for areas of interest.
+
+Features:
+Suggested interest areas based on profile data
+
+Categories for recommendations:
+
+Topics (e.g., AI, Finance, Marketing)
+
+Skills to learn
+
+Topics to follow
+
+Users can add, remove, or edit interests manually
+
+These preferences will be used to generate recommendations in the subsequent tabs
+
+3. Networking Tab
+Based on the user’s profile and career interests, this tab will recommend networking opportunities.
+
+Recommendations (Top 5 in Each Category):
+People to Follow – Based on industry, interests, and mutual connections
+
+People to Connect With – Colleagues, alumni, and influencers in the user’s field
+
+Trending Posts – Recommended posts relevant to user’s interest areas
+
+Experts to Consult – Mentors and industry leaders for guidance
+
+User Actions:
+“Load More” Button – Fetches the next five recommendations
+
+“Ignore” or “Save for Later” – Users can dismiss or store suggestions in persistent storage
+
+4. Jobs Tab
+This section enables users to specify career goals and receive relevant job-related recommendations.
+
+Features:
+Users can define job goals (preferred roles, locations, industries, skills)
+
+AI-generated recommendations for:
+
+Top 5 Job Openings matching the user’s profile
+
+Top 5 Recruiters to Connect With
+
+Top 5 Courses for Skill Development
+
+Top 5 Skills Suggested based on career goals
+
+User Actions:
+"Apply", "Connect", or "Save for Later" options for each recommendation
+
+General UI & Functionality
+Persistent Storage – Saves user preferences, recommendations, and ignored suggestions
+
+Minimal Backend – Mock API using local JSON for simulating backend responses
+
+Smooth Navigation – Tab-based navigation for intuitive user experience
+
+Dark/Light Mode Support (Optional) – Enhances accessibility and user preference
