@@ -1,7 +1,13 @@
 
 # NetworkPro
 
-[![Run on Replit](https://replit.com/badge/github/replit/NetworkPro)](https://replit.com)
+[![Deploy on Vercel](https://www.svgrepo.com/show/327408/logo-vercel.svg)](https://career-pro-v2.vercel.app/)
+
+[![Run on Replit](https://replit.com/badge/github/replit/NetworkPro)](https://replit.com) 
+
+[![Run on Vercel](https://img.shields.io/badge/Run%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://career-pro-v2.vercel.app/)
+
+
 
 A career and networking app that analyzes LinkedIn profile data to provide personalized AI-powered recommendations for career growth, networking, and skill development.
 
