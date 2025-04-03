@@ -3,9 +3,9 @@
 
 
 
-[![Run on Vercel](https://img.shields.io/badge/Run%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://career-pro-v2.vercel.app/) Only Front End!
+[![Run on Vercel](https://img.shields.io/badge/Run%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://career-pro-v2.vercel.app/)
 
-[![Run on Replit - Front End Alone!](https://replit.com/badge/github/replit/NetworkPro)](https://replit.com) 
+[![Run on Replit](https://replit.com/badge/github/replit/NetworkPro)](https://replit.com) 
 
 
 
